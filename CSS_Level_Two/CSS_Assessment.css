@@ -1,0 +1,37 @@
+body {
+  font-family: 'Lobster', cursive;
+}
+
+#title {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  width: 150px;
+  height: 350px;
+  border: 10px solid white;
+}
+
+#col1 {
+  background: #343434;
+}
+
+#col2 {
+  background: #2F3061;
+}
+
+#col3 {
+  background: #0E34A0;
+}
+
+#col4 {
+  background: #5F5980;
+}
+
+#col5 {
+  background: #DFDFDF;
+}
