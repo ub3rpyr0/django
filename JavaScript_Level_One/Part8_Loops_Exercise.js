@@ -13,10 +13,16 @@
 // Do this with a While Loop and a For Loop
 
 // While Loop
-
+var num = 0
+while (num < 5) {
+  console.log("hello")
+  num++
+}
 
 // For Loop
-
+for (var i = 0; i < 5; i++) {
+  console.log("hello");
+}
 
 
 
@@ -29,7 +35,18 @@
 
 // METHOD ONE
 // While Loop
-
+var val = 0
+while (val < 26) {
+  if (val % 2 !== 0) {
+    console.log(val);
+  }
+  val++
+}
 
 // METHOD TWO
 // For Loop
+for (var i = 0; i < 26; i++) {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
